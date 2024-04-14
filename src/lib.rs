@@ -32,4 +32,8 @@ impl LinkedList {
             }
         }
     }
+
+    pub fn merge(&self, ll2: &LinkedList, llFinal: &LinkedList) -> &LinkedList {
+        // Should have coded like ll {ll {ll}}
+    }
 }
